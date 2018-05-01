@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Erick Alexander Camacho</title>
+    <link rel="stylesheet" href="css/long-scrolly.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="main-menu">
+      <div class="container">
+
+        <ul>
+            <li><a href="#first">About Me</a></li>
+            <li><a href="#second">Projects</a></li>
+            <li><a href="#third">Skills</a></li>
+            <li><a href="#forth">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Top Section -->
+    <section id="first">
+        <div class="container">
+
+        <h1 class="header">Erick Alexander Camacho</h1>
+        <img class="main-image" src="images/erick.jpg" alt="erick">
+        <div class="logos">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+
+        <p class="intro">Full stack web developer with a Bachelor of Electrical and Computer Engineering. Background in electronics, signals processing, computer science, entrepreneurship and math. Technical experience in Ruby and Javascript based programming.</p>
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Second Section -->
+    <section id="second">
+        <div class="container">
+        <h1>Projects</h1>
+
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Third Section -->
+    <section id="third">
+        <div class="container">
+        <h1>Skills</h1>
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Forth Section -->
+    <section id="forth">
+        <div class="container">
+        <h1>Contact Me</h1>
+       </div><!-- .container -->
+
+    </section>
+
+<!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+// From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
+//          https://css-tricks.com/snippets/jquery/smooth-scrolling
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 250);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+  </body>
+</html>
