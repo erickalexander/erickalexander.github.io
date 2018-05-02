@@ -16,7 +16,8 @@ html, body {
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
-	background-color: #ccc;
+	background: linear-gradient(to right,black, #07cb79);
+  text-transform: uppercase;
 }
 .main-menu ul {
 	/* standard removal of UL styles */
@@ -26,13 +27,14 @@ html, body {
 
 	/* required - get LIs to line-up side-by-side */
 	display: flex;
-	justify-content: center; /* optional - lookup lots of options */
+	justify-content: space-between;; /* optional - lookup lots of options */
+
 }
 .main-menu a {
 	/* typical - make links look/act like buttons */
 	display: block;
 	padding: 15px;
-	color: #666;
+	color: white;
 	text-decoration: none;
 }
 .main-menu a:hover { color: #07cb79; }
