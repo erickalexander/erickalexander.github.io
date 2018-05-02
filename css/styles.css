@@ -4,11 +4,11 @@ body{
 
 }
 
-.container {
+/* .container {
 	margin: 0 auto;
 	width: 95%;
 	max-width: 960px;
-}
+} */
 
 .main-image{
   display: flex;
@@ -42,9 +42,9 @@ body{
 
 }
 .fa {
-    padding: 12px;
-    font-size: 10px;
-    width: 30px;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -67,8 +67,109 @@ body{
 /* ============================== */
 
 
+/* PROJECT SECTION CSS3 */
+
+/* ============================== */
+
+.main-headers{
+  padding: 10px;
+  text-align:center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.flex-container > div {
+  max-width: 380px;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #07cb79
+}
+
+.center-vids{
+text-align: center;
+}
+
+.project-info{
+  display: flex;
+}
+.proj-des{
+  text-align: center;
+}
+
+.button-f{
+  background-color: white; /* Green */
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-b{
+  background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-d{
+  background-color: #07cb79; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.proj-name{
+  text-align: center;
+}
+.project-info{
+  justify-content: center;
+}
+
+/* ============================== */
+
+/* SECTION CSS */
+/* ============================== */
+
+#second{
+  max-height: auto
+
+}
+
+#forth{
+  max-height: 500px
+
+}
+
+/* ============================== */
+
+footer{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 section{
-  padding-top: 20px;
+  padding-top: 40px;
   height: 100%;
   width: 100%;
+}
+
+.mail-img{
+  width: 100px
+}
+
+.img-mail{
+  text-align: center;
 }
