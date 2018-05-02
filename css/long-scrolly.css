@@ -16,7 +16,7 @@ html, body {
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
-	background: linear-gradient(to right,black, #07cb79);
+	background-color: black;
   text-transform: uppercase;
 }
 .main-menu ul {
