@@ -27,7 +27,7 @@ html, body {
 
 	/* required - get LIs to line-up side-by-side */
 	display: flex;
-	justify-content: space-between;; /* optional - lookup lots of options */
+	justify-content: space-around;; /* optional - lookup lots of options */
 
 }
 .main-menu a {
