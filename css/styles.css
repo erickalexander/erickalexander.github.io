@@ -184,12 +184,16 @@ section{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
-  section{
-    height: auto;
+  #first{
+    height: 900px
   }
 
   #second{
-    max-height: 2000px
+    height: 1500px
+  }
+
+  #third{
+    padding-bottom: 400px
   }
   .header{
     text-align: center;
