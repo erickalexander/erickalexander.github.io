@@ -167,27 +167,6 @@ text-align: center;
 
 /* ============================== */
 
-/* SECTION CSS */
-/* ============================== */
-
-#first{
- overflow: auto;
-}
-
-#second{
-  overflow: auto
-}
-
-#third {
- overflow: auto;
-}
-
-#forth{
-  overflow: auto
-
-}
-
-/* ============================== */
 
 
 section{
@@ -206,6 +185,9 @@ section{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
+  section{
+    overflow: auto;
+  }
   .header{
     text-align: center;
     margin-bottom: 1px;
