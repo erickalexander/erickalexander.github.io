@@ -168,7 +168,6 @@ text-align: center;
 /* ============================== */
 
 
-
 section{
   padding-top: 40px;
   height: 100%;
@@ -186,7 +185,7 @@ section{
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
   section{
-    overflow: auto;
+    height: auto;
   }
   .header{
     text-align: center;
