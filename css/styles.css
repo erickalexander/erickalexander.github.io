@@ -208,10 +208,11 @@ section{
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
   #first{
-    height: 900px
+    height: 1000px
   }
 
   #second{
+    padding-top: 50px;
     height: 1500px
   }
 
@@ -237,5 +238,10 @@ section{
   .footer{
     text-align: center;
     padding-top: 10px;
+  }
+  .resume{
+    margin: auto;
+    width: 25%;
+    padding-top: 30px;
   }
 }
