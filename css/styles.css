@@ -52,7 +52,7 @@ a{
 .resume{
   margin: auto;
   width: 10%;
-  padding-top: 30px
+  padding-top: 20px
 }
 
 .resume-btn{
@@ -192,9 +192,19 @@ text-align: center;
 
 
 section{
-  padding-top: 40px;
+  padding-top: 15px;
   height: 100%;
   width: 100%;
+}
+#second{
+  padding-top: 30px;
+}
+
+#third{
+  padding-top: 30px
+}
+#fourth{
+  padding-top: 30px
 }
 
 .mail-img{
