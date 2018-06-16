@@ -201,10 +201,12 @@ section{
 }
 
 #third{
-  padding-top: 30px
+  padding-top: 100px;
+  margin: auto;
+  width: 60%
 }
 #forth{
-  padding-top: 30px
+  padding-top: 180px
 }
 
 .mail-img{
