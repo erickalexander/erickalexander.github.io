@@ -6,8 +6,9 @@
     <title>Erick Alexander Camacho</title>
     <link rel="stylesheet" href="css/long-scrolly.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98358999-3"></script>
@@ -22,7 +23,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="main-menu">
+    <!-- <nav class="main-menu">
       <div class="toggle">
         <i class="fa fa-bars menu" aria-hidden="true"></i>
       </div>
@@ -32,28 +33,49 @@
             <li><a href="#third">Skills</a></li>
             <li><a href="#forth">Contact Me</a></li>
         </ul>
-    </nav>
+    </nav> -->
+        <!-- navbar -->
+          <a class="nav-open">
+            <i class="fa fa-bars fa-3x"></i>
+          </a>
 
-    <!-- Top Section -->
-    <section id="first">
-        <div class="container">
+          <div class="sidenav">
+            <a class="nav-close">
+              <i class="fa fa-remove fa-2x"></i>
+            </a>
+            <a href="#home">Home</a>
+            <a href="#first">About Me</a>
+            <a href="#second">Projects</a>
+            <a href="#third">Skills</a>
+            <a href="#forth">Contact Me</a>
+          </div>
 
-        <h1 class="header">Erick Alexander Camacho</h1>
-        <img class="main-image" src="images/erick.JPG" alt="erick">
-        <div class="logos">
-          <a href="https://twitter.com/erickcodes" target="_blank" class="fa fa-twitter"></a>
-          <a href="https://www.linkedin.com/in/erickcamacho1/"  target="_blank" class="fa fa-linkedin"></a>
-          <a href="https://www.instagram.com/erickcodes/"  target="_blank" class="fa fa-instagram"></a>
-        </div>
+          <div id="home" class="container">
+            <h1 class="header">
 
-        <p class="intro">Full stack web developer with a Bachelor of Electrical and Computer Engineering. Background in electronics, signals processing, computer science, entrepreneurship and math. Technical experience in Ruby and Javascript based programming.</p>
-        <div class="resume">
-          <a class="resume-btn" href="resume.pdf" target="_blank">View Resume</a>
-        </div>
+              I<span id="sp">'</span>m <img class="main-image" src="images/erick_black.JPG" alt="erick"></br>
 
-       </div><!-- .container -->
+              Erick <br>
 
-    </section>
+              Camacho<span id="sp">.</span></h1>
+
+            <p class="description">Full-Stack Web Developer</p>
+          <!-- <img class="main-image" src="images/erick.JPG" alt="erick"> -->
+          <!-- <div class="logos">
+            <a href="https://twitter.com/erickcodes" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/erickcamacho1/"  target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/erickcodes/"  target="_blank" class="fa fa-instagram"></a>
+          </div>
+
+          <p class="intro">Full stack web developer with a Bachelor of Electrical and Computer Engineering. Background in electronics, signals processing, computer science, entrepreneurship and math. Technical experience in Ruby and Javascript based programming.</p>
+          <div class="resume">
+            <a class="resume-btn" href="resume.pdf" target="_blank">View Resume</a>
+          </div> -->
+            <div class="arrow">
+              <a href="#second"><i class="fa fa-arrow-circle-down fa-4x"></i></a>
+            </div>
+
+         </div><!-- .container -->
 
     <!-- Second Section -->
     <section id="second">
@@ -152,13 +174,31 @@
 
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
-<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script>
 $(document).ready(function(){
-  $('.menu').click(function(){
-    $('.main-menu ul').toggleClass('active')
+
+  $('.nav-open').click(function(){
+    $('.sidenav').css('width','250px')
   })
+  $('.nav-close').click(function(){
+    $('.sidenav').css('width','0')
+  })
+
+  $('.main-image').hover(function(){
+    $(this).attr('src', 'images/erick_color.jpg')
+  },function(){
+    $(this).attr('src', 'images/erick_black.jpg')
+  })
+
 })
+</script>
+<script>
+
+// $(document).ready(function(){
+//   $('.menu').click(function(){
+//     $('.main-menu ul').toggleClass('active')
+//   })
+// })
 
 // From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
 //          https://css-tricks.com/snippets/jquery/smooth-scrolling
