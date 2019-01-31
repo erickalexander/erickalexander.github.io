@@ -175,6 +175,7 @@
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script>
+$(document).ready(function(){
 
   $('.nav-open').click(function(){
     $('.sidenav').css('width','250px')
@@ -183,13 +184,7 @@
     $('.sidenav').css('width','0')
   })
 
-  $('.main-image').hover(function(){
-    $(this).attr('src', 'images/erick_color.jpg')
-  },function(){
-    $(this).attr('src', 'images/erick_black.jpg')
-  })
-
-
+})
 </script>
 <script>
 
