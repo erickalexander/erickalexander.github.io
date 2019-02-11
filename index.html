@@ -22,203 +22,248 @@
   </head>
   <body>
 
-    <!-- Navigation -->
-    <!-- <nav class="main-menu">
-      <div class="toggle">
-        <i class="fa fa-bars menu" aria-hidden="true"></i>
-      </div>
-        <ul>
-            <li><a href="#first">About Me</a></li>
-            <li><a href="#second">Projects</a></li>
-            <li><a href="#third">Skills</a></li>
-            <li><a href="#forth">Contact Me</a></li>
-        </ul>
-    </nav> -->
-        <!-- navbar -->
+          <!-- Side Nav Bar -->
           <a class="nav-open">
-            <i class="fa fa-bars fa-3x"></i>
+            <i class="fa fa-bars fa-2x"></i>
           </a>
 
           <div class="sidenav">
             <a class="nav-close">
               <i class="fa fa-remove fa-2x"></i>
             </a>
-            <a href="#home">Home</a>
             <a href="#first">About Me</a>
             <a href="#second">Projects</a>
             <a href="#third">Skills</a>
             <a href="#forth">Contact Me</a>
           </div>
 
-          <div id="home" class="container">
+          <!-- -------------------- -->
+    <div class="container">
+      <section id="first">
             <h1 class="header">
 
-              I<span id="sp">'</span>m <img class="main-image" src="images/erick_black.jpg" alt="erick"></br>
+              I<span id="sp">'</span>m
+              <div class="flip-card">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="main-image" src="images/erick_black.jpg" alt="erick"></br>
+                    </div>
+                    <div class="flip-card-back">
+                      <h2>Full Stack Web Developer</h2>
+                      <p class="bio">Have a passion for creating  functional, aesthetically appealing, and user friendly   products that bring positive impact to our world. With experience in Ruby on Rails, JavaScript, and React and a background in Electrical and Computer Engineering I bring strong skills in critical thinking and project management.</p>
+                      <a href="resume.pdf" target="_blank"><button class="resume-btn" type="button" name="button">Resume</button></a>
+                    </div>
+                  </div>
+                  <div class="about">
+                    <i class='fa fa-caret-up fa-2x'></i>
+                    <p>About Me</p>
+                  </div>
+                </div>
+
+
+              </div> <br>
+
 
               Erick <br>
 
               Camacho<span id="sp">.</span></h1>
 
             <p class="description">Full-Stack Web Developer</p>
-          <!-- <img class="main-image" src="images/erick.JPG" alt="erick"> -->
-          <!-- <div class="logos">
-            <a href="https://twitter.com/erickcodes" target="_blank" class="fa fa-twitter"></a>
-            <a href="https://www.linkedin.com/in/erickcamacho1/"  target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://www.instagram.com/erickcodes/"  target="_blank" class="fa fa-instagram"></a>
-          </div>
 
-          <p class="intro">Full stack web developer with a Bachelor of Electrical and Computer Engineering. Background in electronics, signals processing, computer science, entrepreneurship and math. Technical experience in Ruby and Javascript based programming.</p>
-          <div class="resume">
-            <a class="resume-btn" href="resume.pdf" target="_blank">View Resume</a>
-          </div> -->
             <div class="arrow">
               <a href="#second"><i class="fa fa-arrow-circle-down fa-4x"></i></a>
             </div>
 
-         </div><!-- .container -->
+      </section>
 
-    <!-- Second Section -->
-    <section id="second">
-      <h1 class="main-headers">Projects</h1>
-
-        <div>
-
-        <div class="flex-container">
-          <div>
-            <h1 class='proj-name'>IDJ</h1>
-            <p class="proj-des">A platform that connects aspiring DJs to professionals that provide mentorship and education/training</p>
-            <div class="center-vids">
-              <iframe width="360" height="215"
-                src="https://www.youtube.com/embed/4tF7G13PdFE" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-
-            <div class="project-info">
-              <a class="button-f" href="https://github.com/erickalexander/idj-frontend" target="_blank">Frontend Github</a>
-              <a class="button-b" href="https://github.com/erickalexander/idj-backend" target="_blank"> Backend Github</a>
-
-            </div>
-
+      <!-- Second Section -->
+      <section id="second">
+        <div class="projectNav">
+          <div class="viewProject">
+            <p>Click to view project</p>
+            <i class='fa fa-caret-down fa-2x'></i>
+          </div>
+          <div class="">
+            <h1><a class="p1">iDJ</a></h1>
+            <!-- <h2>Ruby on Rails and React App</h2> -->
           </div>
           <div>
-            <h1 class='proj-name'>Footbally</h1>
-            <p class="proj-des">Serves soccer fans with information from Europe’s top leagues, users can create a profile to track their favorite teams or leagues</p>
-
-            <div class="center-vids">
-              <iframe width="360" height="215"
-                src="https://www.youtube.com/embed/bZ9ukOJWk50" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-            <div class="project-info">
-              <a class="button-f" href="https://github.com/wassi12495/Mod4Project-Frontend" target="_blank">Frontend Github</a>
-              <a class="button-b" href="https://github.com/wassi12495/Mod4Project-Backend" target="_blank"> Backend Github</a>
-
-            </div>
+            <h1><a class="p2">Footbally</a></h1>
+            <!-- <h2>Ruby on Rails and React App</h2> -->
           </div>
-          <div>
-            <h1 class='proj-name'>Furever Furend</h1>
-            <p class="proj-des">Algorithm-powered dog matching service that suggests dog-breeds based on user lifestyle/profile</p>
-
-            <div class="center-vids">
-              <iframe width="360" height="215"
-                src="https://www.youtube.com/embed/m21_2VnbXKI" frameborder="0" allowfullscreen>
-              </iframe>
-            </div>
-
-            <div class="project-info">
-              <a class="button-f" href="https://github.com/eshim12/mod-2-final-project-furever-furend" target="_blank">Github Repo</a>
-              <a class="button-d" href="https://furever-furend.herokuapp.com/" target="_blank">Live Demo</a>
-
-            </div>
+          <div class="">
+            <h1><a class="p3">Furever Furend</a></h1>
+            <!-- <h2>Ruby on Rails App</h2> -->
+          </div>
+          <div class="">
+            <h1><a class="p4">Stock App</a></h1>
+            <!-- <h2>Ruby on Rails App</h2> -->
+          </div>
+          <div class="">
+            <h1><a class="p5">NY-11 News Client</a></h1>
+            <!-- <h2>Ruby on Rails App</h2> -->
           </div>
         </div>
 
+        <div class="projectShow">
+          <div class="proj1">
+            <h2 class="title">iDJ</h2>
+            <h3><i>A platform that connects aspiring DJs to professionals that provide mentorship and education/training</i></h3> <br>
+            <div class="video">
+              <iframe width="460" height="315"
+                 src="https://www.youtube.com/embed/4tF7G13PdFE" frameborder="0" allowfullscreen>
+               </iframe>
+            </div>
+            <p>Built w/ Ruby on Rails, PostgreSQL, React JS, Semantic UI, CSS, JSON, AJAX</p>
+            <div class="project-info">
+                <a class="button-f" href="https://github.com/erickalexander/idj-frontend" target="_blank">Frontend Github</a>
+                <a class="button-b" href="https://github.com/erickalexander/idj-backend" target="_blank"> Backend Github</a>
+            </div>
 
-       </div><!-- .container -->
+          </div>
 
-    </section>
+          <div class="proj2">
+            <h2 class="title">Footbally</h2>
+            <h3><i>Serves soccer fans with information from Europe’s top leagues, users can create a profile to track their favorite teams or leagues</i></h3> <br>
+            <div class="video">
+              <iframe width="460" height="315"
+                 src="https://www.youtube.com/embed/bZ9ukOJWk50" frameborder="0" allowfullscreen>
+               </iframe>
+            </div>
+            <p>Built w/ Ruby on Rails, PostgreSQL, React JS, Semantic UI, CSS, JSON, AJAX</p>
+            <div class="project-info">
+                <a class="button-f" href="https://github.com/wassi12495/Mod4Project-Frontend" target="_blank">Frontend Github</a>
+                <a class="button-b" href="https://github.com/wassi12495/Mod4Project-Backend" target="_blank"> Backend Github</a>
+            </div>
 
-    <!-- Third Section -->
-    <section id="third">
-        <p class="skills">HTML | CSS | Javascript | SQL | Ruby on Rails | React/Redux | Bootstrap | Semantic UI | Git</p>
-        <div class="skills-logos">
-          <img class="skill-img" src="images/html.svg" alt="html">
-          <img class="skill-img" src="images/javascript.png" alt="javascript">
-          <img class="skill-img" src="images/rails.png" alt="rails">
-          <img class="skill-img" src="images/react.svg" alt="react">
-          <img class="skill-img" src="images/database.svg" alt="database">
+          </div>
+          <div class="proj3">
+            <h2 class="title">Furever Furend</h2>
+            <h3><i>Algorithm-powered dog matching service that suggests dog-breeds based on user lifestyle/profile</i></h3> <br>
+            <div class="video">
+              <iframe width="460" height="315"
+                 src="https://www.youtube.com/embed/m21_2VnbXKI" frameborder="0" allowfullscreen>
+               </iframe>
+            </div>
+            <p>Built w/ Ruby on Rails, PostgreSQL, React JS, Semantic UI, CSS, JSON, AJAX</p>
+            <div class="project-info">
+                <a class="button-b" href="https://github.com/eshim12/mod-2-final-project-furever-furend" target="_blank">Code Github</a>
+                <a class="button-f" href="https://furever-furend.herokuapp.com/" target="_blank">Live Demo</a>
+            </div>
 
+          </div>
 
+          <div class="proj4">
+            <h2 class="title">Stock App</h2>
+            <h3><i>Using the Alpha Vantage Stock API, built a dashboard that displays five stocks. The homepage displays minimal data, once you click on each stock you get a view page with more information on the performance in the past 5 days.</i></h3> <br>
+            <img src="images/stockapp.jpg" alt="stock" style="width:550px; height="315"">
+            <p>Built w/ React JS, Semantic UI, CSS, JSON, AJAX, Alpha Vantage API</p>
+            <div class="project-info">
+               <a class="button-b" href="https://github.com/erickalexander/stock-app" target="_blank">Code Github </a>
+                <a class="button-f" href="http://stock-app-2018.herokuapp.com/" target="_blank">Live Demo</a>
+            </div>
+
+          </div>
+          <div class="proj5">
+            <h2 class="title">NY-11 News Client</h2>
+            <h3><i>Using the News API, built a news client that displayed articles pertaining to the congressional district NY-11. Filtered articles pertaining to each candidate. This application helped out the communications team.</i></h3> <br>
+            <img src="images/newsapp.png" alt="stock" style="width:550px; height="315"">
+            <p>Built w/ React JS, Semantic UI, CSS, JSON, AJAX, News Api</p>
+            <div class="project-info">
+                <a class="button-f" href="http://stock-app-2018.herokuapp.com/" target="_blank">Live Demo</a>
+            </div>
+
+          </div>
         </div>
 
-    </section>
+      </section>
 
-    <!-- Forth Section -->
-    <section id="forth">
-      <div class="img-mail">
-        <a href="mailto:ecamach3@u.rochester.edu"><img class="mail-img" src="images/mail.svg"></img></a>
-        <a href="tel:13478735867"><img class="mail-img" src="images/phone.png"></img></a>
+      <!-- Third Section -->
+      <section id="third">
 
-      </div>
+      </section>
 
-      <div class="medium-blog">
-        <h2>Visit my Technical Blog</h2>
-        <a href="https://medium.com/@erickcodes" target="_blank"><img src="images/medium.png" alt="medium"></a>
-      </div>
-      <div class="footer">
-        <h2>Made with &hearts by <a href = "https://www.linkedin.com/in/erickcamacho1" target="_blank">Erick Camacho</a> </h2>
-      </div>
+      <!-- Forth Section -->
+      <section id="forth">
 
-    </section>
+      </section>
 
+    </div><!-- .container -->
 
+    <script>
+      $(document).ready(function(){
 
-<!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
-<script>
-$(document).ready(function(){
+        $('.nav-open').click(function(){
+          $('.sidenav').css('width','250px')
+        })
+        $('.nav-close').click(function(){
+          $('.sidenav').css('width','0')
+        })
+      })
+    </script>
 
-  $('.nav-open').click(function(){
-    $('.sidenav').css('width','250px')
-  })
-  $('.nav-close').click(function(){
-    $('.sidenav').css('width','0')
-  })
+    <script>
+    $('.p1').click(function(){
+      $('.proj1').css('display','block')
+      $('.proj2').css('display','none')
+      $('.proj3').css('display','none')
+      $('.proj4').css('display','none')
+      $('.proj5').css('display','none')
 
-  $('.main-image').hover(function(){
-    $(this).attr('src', 'images/erick_color.jpg')
-  },function(){
-    $(this).attr('src', 'images/erick_black.jpg')
-  })
+    })
 
-})
-</script>
-<script>
+      $('.p2').click(function(){
+        $('.proj1').css('display','none')
+        $('.proj2').css('display','block')
+        $('.proj3').css('display','none')
+        $('.proj4').css('display','none')
+        $('.proj5').css('display','none')
 
-// $(document).ready(function(){
-//   $('.menu').click(function(){
-//     $('.main-menu ul').toggleClass('active')
-//   })
-// })
+      })
+      $('.p3').click(function(){
+        $('.proj1').css('display','none')
+        $('.proj2').css('display','none')
+        $('.proj3').css('display','block')
+        $('.proj4').css('display','none')
+        $('.proj5').css('display','none')
+      })
+      $('.p4').click(function(){
+        $('.proj1').css('display','none')
+        $('.proj2').css('display','none')
+        $('.proj3').css('display','none')
+        $('.proj4').css('display','block')
+        $('.proj5').css('display','none')
+      })
+      $('.p5').click(function(){
+        $('.proj1').css('display','none')
+        $('.proj2').css('display','none')
+        $('.proj3').css('display','none')
+        $('.proj4').css('display','none')
+        $('.proj5').css('display','block')
+      })
 
-// From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
-//          https://css-tricks.com/snippets/jquery/smooth-scrolling
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 250);
-        return false;
-      }
-    }
-  });
-});
+    </script>
 
-
-</script>
+    <!-- From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
+             https://css-tricks.com/snippets/jquery/smooth-scrolling -->
+    <script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 250);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
 
   </body>
+
 </html>
