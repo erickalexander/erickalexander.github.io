@@ -7,6 +7,7 @@ body {
 
 a {
   text-decoration: none;
+
 }
 
 h1 {
@@ -194,6 +195,24 @@ p{
   text-align: center;
   background: white;
   color: black;
+}
+
+.p1{
+  cursor: pointer;
+}
+.p2{
+  cursor: pointer;
+}
+
+.p3{
+  cursor: pointer;
+}
+.p4{
+  cursor: pointer;
+}
+
+.p5{
+  cursor: pointer;
 }
 
 .proj1{
