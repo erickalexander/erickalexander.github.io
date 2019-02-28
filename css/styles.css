@@ -272,6 +272,25 @@ p{
   font-size: 16px;
 }
 
+.contactDiv{
+    text-align: center;
+    padding-top: 270px;
+}
+.contactName{
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.icons > a ~ a{
+    padding-left: 15px;
+    color: white;
+}
+
+.icons > a:visited {
+    color: white;
+}
+
 
 #sp{
   color: #07cb79
