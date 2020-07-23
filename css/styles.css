@@ -61,6 +61,7 @@ li a:hover {
 
 /*-----------------*/
 
+
 .container {
   margin: 0;
   padding: 20px 0px 20px 0px;
@@ -76,6 +77,10 @@ li a:hover {
   margin: 0;
   color: #07cb79;
   font-size: 40px;
+}
+
+.resumeMobile{
+  display: none;
 }
 .about{
   padding-top: 20px;
@@ -141,55 +146,6 @@ li a:hover {
   margin-left: 50px;
 }
 
-
-/* Flip card Styling */
-.main-image{
-  width:300px;
-  height:300px;
-}
-
-.flip-card{
-  float: right;
-  padding-right: 80px;
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-  font-size: 14.5px
-}
-
-.flip-card-inner{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-  z-index: 2;
-}
-
-.flip-card-back {
-  background: white;
-  color: black;
-  transform: rotateY(180deg);
-  z-index: 1;
-}
 
 .bio{
   padding-bottom: 10px
@@ -358,9 +314,9 @@ li a:hover {
     padding: 0px 10px;
   }
   #first{
-    padding-top: 100px;
-    height: auto;
+    padding-top: 150px;
     padding-left: 0px !important;
+    height: 70vh;
   }
 
   #second{
@@ -374,6 +330,22 @@ li a:hover {
     padding-left: 0px !important;
     height: auto;
   }
+  .header{
+    font-size: 65px !important;
+    text-align: center;
+  }
+  .description{
+    font-size: 25px;
+    text-align: center;
+  }
+  .resumeMobile{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .arrow{
+    display: none;
+  }
   .nav-open{
     display: block;
   }
@@ -381,7 +353,13 @@ li a:hover {
     display: none;
   }
   .projectNavPhone{
-    display: block !important;
+    display: flex !important;
+    background: black;
+    justify-content: center;
+  }
+
+  .projectShow{
+    padding: 0px 0px 20px 0px;
   }
   .stockapp{
     width: 350px !important;
@@ -396,7 +374,7 @@ li a:hover {
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
