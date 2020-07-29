@@ -319,6 +319,7 @@ li a:hover {
   }
   h3{
     padding: 0px 10px;
+    font-size: 15px
   }
   #first{
     padding-top: 150px;
@@ -338,8 +339,11 @@ li a:hover {
     height: auto;
   }
   .header{
-    font-size: 65px !important;
+    font-size: 40px !important;
     text-align: center;
+  }
+  .title{
+    font-size: 30px
   }
   .description{
     font-size: 25px;
@@ -417,6 +421,13 @@ li a:hover {
     margin: auto;
     width: 20%;
     padding-top: 30px;
+  }
+  .resume-btn{
+    font-family: net !important;
+  }
+  .contactName{
+      font-size: 40px;
+      margin: 0;
   }
 
 
