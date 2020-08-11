@@ -23,6 +23,9 @@ h1 {
 h3{
   font-size: 17px;
 }
+h2{
+  margin: 0px;
+}
 
 section{
   height: 100vh;
@@ -160,8 +163,16 @@ li a:hover {
 .projectNav{
   width: 50%;
   background: #07cb79;
-  padding: 140px 0;
+  /* padding: 140px 0; */
   text-align: center;
+}
+
+.centerdiv{
+  margin: 0;
+  top: 50%;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .projectNav a{
@@ -422,6 +433,14 @@ li a:hover {
       font-size: 40px;
       margin: 0;
   }
+
+  .centerdiv{
+    margin: 0;
+    top: 45%;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }  
 
 
 }
