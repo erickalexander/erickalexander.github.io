@@ -434,6 +434,7 @@ li a:hover {
       margin: 0;
   }
 
+  /* This css helps center divs vertically */
   .centerdiv{
     margin: 0;
     top: 45%;
